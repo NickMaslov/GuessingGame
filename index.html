@@ -5,12 +5,12 @@
 
     <!-- Bootstrap and CSS here-->
   <link rel='stylesheet' type='text/css' href='style.css'>
-  <link rel='stylesheet' type='text/css' href='bootstrap.css'>
+  <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
 
   </head>
-  <body class="container">
+  <body>
 
-    <div id='app' class='center'>
+    <div id='app' class='center container'>
 
         <div id='headers'>
           <h1 id='title'>Play the Guessing Game!</h1>
@@ -20,7 +20,7 @@
       <div id='main'>
         <div id='input-parent'>
           <input id='players-input' class='center' placeholder="#" maxlength='3' autofocus=autofocus></input>
-          <button id='submit'>Go!</button>
+          <button id='submit' class='btn btn-success'>Go!</button>
         </div>
 
           <div id='guesses'>
@@ -34,23 +34,23 @@
           </div>
 
         <div id="menu-btns">
-          <button id='reset'>Reset</button>
-          <button id='hint'>Hint</button>
+          <button id='reset' class='btn btn-warning'>Reset</button>
+          <button id='hint' class='btn btn-info'>Hint</button>
         </div>
       </div>
     </div>
 
     <div id='footer' class='center'>
-      <div>
-        <div class=''>
+      <div class='row'>
+        <div class='col-sm-4'>
           <img src='fa-logo@2x.png'></img>
         </div>
 
-        <div class=''>
+        <div class='col-sm-4'>
           <h4>Project by Mykola Maslov</h4>
         </div>
 
-        <div class=''>
+        <div class='col-sm-4'>
           <img src='grace_hopper_academy.png'></img>
         </div>
 
